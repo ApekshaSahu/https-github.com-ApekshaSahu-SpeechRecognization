@@ -13,6 +13,7 @@
 		FB62C69321AA58040002FC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB62C69121AA58040002FC90 /* Main.storyboard */; };
 		FB62C69521AA580C0002FC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB62C69421AA580C0002FC90 /* Assets.xcassets */; };
 		FB62C69821AA580C0002FC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB62C69621AA580C0002FC90 /* LaunchScreen.storyboard */; };
+		FB62C6A021AA5ADB0002FC90 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62C69F21AA5ADB0002FC90 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB62C69421AA580C0002FC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB62C69721AA580C0002FC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB62C69921AA580C0002FC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB62C69F21AA5ADB0002FC90 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FB62C69421AA580C0002FC90 /* Assets.xcassets */,
 				FB62C69621AA580C0002FC90 /* LaunchScreen.storyboard */,
 				FB62C69921AA580C0002FC90 /* Info.plist */,
+				FB62C69F21AA5ADB0002FC90 /* CircleButton.swift */,
 			);
 			path = SpeechApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				FB62C69021AA58040002FC90 /* SecondViewController.swift in Sources */,
 				FB62C68C21AA58040002FC90 /* AppDelegate.swift in Sources */,
 				FB62C68E21AA58040002FC90 /* FirstViewController.swift in Sources */,
+				FB62C6A021AA5ADB0002FC90 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QCTS28BJ32;
+				DEVELOPMENT_TEAM = 87RL6R8353;
 				INFOPLIST_FILE = SpeechApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ManishGiri.NewApp.SpeechApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,8 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QCTS28BJ32;
+				DEVELOPMENT_TEAM = 87RL6R8353;
 				INFOPLIST_FILE = SpeechApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ManishGiri.NewApp.SpeechApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
